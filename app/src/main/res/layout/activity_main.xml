@@ -1,0 +1,78 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/playa"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conversión de Grados"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elige la unidad inicial a convertir:"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinnerUnidadOrigen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresa la cantidad a convertir:"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:textColor="@android:color/black"
+        android:hint="°"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/buttonConvertir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convertir"
+        android:backgroundTint="#FF6200EE"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/resultadosTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
