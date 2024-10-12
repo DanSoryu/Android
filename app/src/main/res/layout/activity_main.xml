@@ -1,0 +1,71 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fondo"
+    tools:context=".MainActivity">
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="IMPLICITO"
+android:textSize="24sp"
+android:textStyle="bold"
+    android:textColor="@color/black"
+    android:layout_gravity="center"
+android:layout_marginBottom="16dp" />
+
+<Button
+android:id="@+id/btn_implicit_youtube"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Mi canal de Youtube" />
+
+<Button
+android:id="@+id/btn_implicit_sms"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Mandar SMS" />
+
+<Button
+android:id="@+id/btn_implicit_siia"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Ver tus calificaciones" />
+
+<View
+android:layout_width="match_parent"
+android:layout_height="50dp" />
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="EXPLICITO"
+android:textSize="24sp"
+android:textStyle="bold"
+    android:textColor="@color/black"
+    android:layout_gravity="center"
+android:layout_marginBottom="16dp" />
+
+<Button
+android:id="@+id/btn_explicit_activity1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Actividad 1" />
+
+<Button
+android:id="@+id/btn_explicit_activity2"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Actividad 2" />
+
+<Button
+android:id="@+id/btn_explicit_activity3"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Actividad 3" />
+    </LinearLayout>
